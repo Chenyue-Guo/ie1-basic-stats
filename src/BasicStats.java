@@ -28,6 +28,7 @@ public class BasicStats {
     MeanView meanView = new MeanView();
     MedianView medianView = new MedianView();
     ModeView modeView = new ModeView();
+    MinView minView = new MinView();
     NumbersView numbersView = new NumbersView();
     AddNumView addNumView = new AddNumView();
     ResetView resetView = new ResetView();
@@ -38,6 +39,7 @@ public class BasicStats {
     statsViews.add(medianView);
     statsViews.add(meanView);
     statsViews.add(modeView);
+    statsViews.add(minView);
 
     /***** REGISTER MVC BLOCK *****/
 
