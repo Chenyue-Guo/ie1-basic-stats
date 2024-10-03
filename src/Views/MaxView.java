@@ -11,6 +11,8 @@ public class MaxView implements View {
 	JTextField jtfMax;
 	String name;
 
+    // test
+
 	public MaxView() {
 		max = 0;
 		jtfMax = new JTextField(5);
