@@ -12,4 +12,12 @@ public class MinMaxCalculation {
         }
         return min;
     }
+
+    public static double max(double ... numbers) {
+        double max = Double.NEGATIVE_INFINITY;
+        for (double num : numbers) {
+            max = Math.max(max, num);
+        }
+        return max;
+    }
 }
