@@ -1,9 +1,9 @@
 /**
- * A simple class to compute basic, descriptive statistics.
+ * A simple class to compute minimum and maximum of st.
  */
 public class MinMaxCalculation {
     /**
-     * Compute the mean of an array of numbers.
+     * Compute the minimum of an array of numbers.
      */
     public static double min(double ... numbers) {
         double min = Double.MAX_VALUE;
@@ -13,6 +13,9 @@ public class MinMaxCalculation {
         return min;
     }
 
+    /**
+     * Compute the maximum of an array of numbers.
+     */
     public static double max(double ... numbers) {
         double max = Double.NEGATIVE_INFINITY;
         for (double num : numbers) {
