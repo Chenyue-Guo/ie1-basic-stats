@@ -23,4 +23,5 @@ public class MinMaxCalculation {
         }
         return max;
     }
+    
 }
